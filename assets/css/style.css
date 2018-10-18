@@ -1,4 +1,59 @@
-nav {
-    width: 960px;
+body{
+  background-image: url("../image/bg-hexlight.png");
+  color: #777777;
+}
+
+/* Spacing ###########################################################################*/
+.crd-width-ma {
+    max-width: 960px;
     margin: 0 auto;
+}
+.crd-mb-32{
+  margin-bottom: 32px;
+}
+.crd-m-4{
+  margin: 4px;
+}
+.crd-m-8{
+  margin: 8px;
+}
+.crd-p-4{
+  padding: 4px;
+}
+
+/* Colors #############################################################################*/
+.crd-bg-primary {
+  background-color: #ffffff;
+}
+.crd-nav-border{
+  border-bottom: 4px solid #777777;
+}
+.crd-footer-border{
+  border-top: 8px solid #4aaaa5;
+}
+.crd-bg-accent {
+  background-color: #4aaaa5;
+}
+.crd-font-primary *{
+  color: #777777;
+}
+.crd-font-accent{
+  color:#4aaaa5;
+}
+.crd-footer-bg{
+  background-color: #666;
+}
+.crd-main-border{
+  border:1px solid #ddd;
+}
+
+
+/* Nav Bar Specific ##########################################################################*/
+.nav-item a:hover{
+  color: #4aaaa5;
+}
+.sec-bio img {
+  width: 196px;
+  height: 196px;
+  background-color:  #999;
 }

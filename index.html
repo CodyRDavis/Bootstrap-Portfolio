@@ -7,18 +7,20 @@
     <title>Cody Davis</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css"
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header class="bg-light">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Cody Davis</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+    <!-- Navigation Bar with div container-->
+    <div class="crd-bg-primary crd-mb-32 crd-nav-border">
+        <nav class="navbar navbar-expand-lg crd-width-ma crd-font-primary">
+                <span class="crd-bg-accent brand-wrapper">
+                    <a class="navbar-brand" href="#">Cody Davis</a>
+                </span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon align-middle">&#9776;</span>
                 </button>
-            
-                <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="#">About</a>
                         </li>
@@ -28,21 +30,26 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Reach Out</a>
                         </li>
-                        <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle d-none" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                        </li>
                     </ul>
                 </div>
         </nav>
-    </header>
-    
+    </div>
+    <!--Content wrapper with card to contain bio information-->
+    <section class="crd-bg-primary crd-width-ma">
+        <div class="card crd-main-border">
+            <div class="card-body">
+                <h1>About Me...</h1>
+                <hr>
+                <section class="sec-bio">
+                    <img class="float-left crd-m-8" src="assets/image/photo-codydavis.jpg" alt="Photo of Cody Davis">
+                    <p class="float-left">stuff about cody...</p>
+                </section>
+            </div>
+        </div>
+    </section>
+    <!--Footer locked to bottom-->
+    <footer class="crd-footer-bg crd-footer-border fixed-bottom d-flex justify-content-center crd-p-sm">
+        <span class="crd-font-accent">copyright</span>
+    </footer>
 </body>
 </html>
