@@ -1,6 +1,13 @@
 body{
   background-image: url("../image/bg-hexlight.png");
   color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h1{
+  font-size: 2.25em;
 }
 
 /* Spacing ###########################################################################*/
@@ -19,6 +26,9 @@ body{
 }
 .crd-p-4{
   padding: 4px;
+}
+.crd-pt-12{
+  padding-top: 12px;
 }
 
 /* Colors #############################################################################*/
@@ -46,14 +56,59 @@ body{
 .crd-main-border{
   border:1px solid #ddd;
 }
+.crd-font-white{
+  color: #fff;
+}
 
 
 /* Nav Bar Specific ##########################################################################*/
+.navbar {
+  padding: 0;
+}
+.nav-item:not(:last-of-type){
+  border-right: 1px solid #99999933;
+}
+.nav-item a{
+  font-weight: 550;
+}
 .nav-item a:hover{
   color: #4aaaa5;
 }
+.navbar-name {
+  padding: 16px;
+  margin:0;
+}
+.brand-wrapper{
+  height: 100%;
+  margin: 0;
+}
+
 .sec-bio img {
   width: 196px;
   height: 196px;
   background-color:  #999;
+}
+/* Footer Specific #################################################################### */
+footer{
+  font-size: 12px;
+}
+
+/* Portfolio Specific ################################################################## */
+.portfolio-item-photo{
+  height: 256px;
+  width: 256px;
+  background-color: #777777;
+}
+.crd-portfolio-card{
+  margin:8px;
+}
+.crd-card-text{
+  position: relative;
+  bottom: 64px;
+  font-size: 1.5em;
+}
+.crd-portfolio-card-body{
+  margin:0;
+  padding:0;
+  height:0;
 }
