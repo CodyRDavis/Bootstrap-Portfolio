@@ -81,6 +81,13 @@ nav ul li:not(:last-of-type) {
   color: #666;
 }
 
+.portfolio-photo-caption{
+  position: relative;
+  bottom: 60px;
+  background-color: #4aaaa5;
+  color: #fff;
+}
+
 /* footer --------------------------------------------- */
 
 .crd-footer {
