@@ -81,11 +81,16 @@ nav ul li:not(:last-of-type) {
   color: #666;
 }
 
+.crd-portfolio-preview-wrapper {
+  width: 250px;
+}
+
 .portfolio-photo-caption{
   position: relative;
   bottom: 60px;
   background-color: #4aaaa5;
   color: #fff;
+  text-align: center;
 }
 
 /* footer --------------------------------------------- */
