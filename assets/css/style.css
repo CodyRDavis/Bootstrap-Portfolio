@@ -1,111 +1,92 @@
+*{
+  box-sizing: border-box;
+}
 body{
-  background-image: url("../image/bg-hexlight.png");
-  color: #777777;
-  font-family: Arial, Helvetica, sans-serif;
-}
-h1,h2,h3,h4,h5,h6{
-  font-family: 'Georgia', Times, Times New Roman, serif;
-}
-h1{
-  font-size: 2.25em;
+  background-color: #4aaaa5;
+  background-image: url('../image/bg-hexlight.png');
 }
 
-/* Spacing ###########################################################################*/
-.crd-width-ma {
-    max-width: 960px;
-    margin: 0 auto;
+.container {
+  max-width: 960px; 
+  padding: 0;
+  margin: 0 auto;
+}
+
+.crd-w-100{
+  width: 100%;
+}
+.row{
+  margin: 8px;
+}
+
+/* SPacing ------------------------------------------------- */
+.crd-mb-12 {
+  margin-bottom: 12px;
 }
 .crd-mb-32{
   margin-bottom: 32px;
 }
-.crd-m-4{
-  margin: 4px;
-}
-.crd-m-8{
-  margin: 8px;
-}
-.crd-p-4{
-  padding: 4px;
-}
-.crd-pt-12{
-  padding-top: 12px;
+
+.crd-pt-16 {
+  padding-top: 16px;
 }
 
-/* Colors #############################################################################*/
-.crd-bg-primary {
-  background-color: #ffffff;
-}
-.crd-nav-border{
-  border-bottom: 4px solid #777777;
-}
-.crd-footer-border{
-  border-top: 8px solid #4aaaa5;
-}
-.crd-bg-accent {
-  background-color: #4aaaa5;
-}
-.crd-font-primary *{
-  color: #777777;
-}
-.crd-font-accent{
-  color:#4aaaa5;
-}
-.crd-footer-bg{
-  background-color: #666;
-}
-.crd-main-border{
-  border:1px solid #ddd;
-}
-.crd-font-white{
-  color: #fff;
-}
-
-
-/* Nav Bar Specific ##########################################################################*/
-.navbar {
-  padding: 0;
-}
-.nav-item:not(:last-of-type){
-  border-right: 1px solid #99999933;
-}
-.nav-item a{
-  font-weight: 550;
-}
-.nav-item a:hover{
+/* Colors --------------------------------------------------------------- */
+.crd-font-teal {
   color: #4aaaa5;
 }
-.navbar-name {
-  padding: 16px;
-  margin:0;
-}
-.brand-wrapper{
-  height: 100%;
-  margin: 0;
+.nav-link{
+  color: #777;
 }
 
-.sec-bio img {
-  width: 196px;
-  height: 196px;
-  background-color:  #999;
+.nav-link:hover,
+.nav-link:active {
+  color:#4aaaa5;
 }
-/* Footer Specific #################################################################### */
-footer{
+
+/* Navbar -------------------------------------------------- */
+
+nav ul li:not(:last-of-type) {
+  border-right: 1px solid #33333311;
+}
+.crd-navbar {
+  background-color: #fff;
+  border-bottom: 3px solid #ccc;
+  padding: 0;
+  margin-bottom: 32px;
+}
+
+.nav-logo{
+  height:100%;
+  color: #fff;
+  background-color: #4aaaa5;
+  padding: 8px 24px;
+}
+
+/* Page content ----------------------------------------- */
+
+.crd-title-border-bottom{
+  border-bottom: 2px solid #ccc;
+}
+
+.crd-profile-picture{
+  width:128px;
+  height:128px;
+  margin: 8px;
+}
+
+.crd-main-wrapper{
+  border: 1px solid #ddd;
+  background-color: #fff;
+  color: #666;
+}
+
+/* footer --------------------------------------------- */
+
+.crd-footer {
+  border-top: 3px solid #4aaaa5;
+  padding-top: 16px;
+  background-color: #666666;
+  color: #fff;
   font-size: 12px;
-}
-
-/* Portfolio Specific ################################################################## */
-.portfolio-item-photo{
-  height: 256px;
-  width: 256px;
-  background-color: #777777;
-}
-.crd-card-text{
-  position: relative;
-  bottom: 64px;
-  font-size: 1.5em;
-}
-.crd-portfolio-card-body{
-  margin:0;
-  padding:0;
-  height:0;
 }
