@@ -73,6 +73,7 @@ nav ul li:not(:last-of-type) {
   width:128px;
   height:128px;
   margin: 8px;
+  margin: 0 auto;
 }
 
 .crd-main-wrapper{
@@ -81,13 +82,10 @@ nav ul li:not(:last-of-type) {
   color: #666;
 }
 
-.crd-portfolio-preview-wrapper {
-  width: 250px;
-}
-
-.portfolio-photo-caption{
+.crd-profile-preview-caption{
+  padding: 16px;
   position: relative;
-  bottom: 60px;
+  bottom: 24%;
   background-color: #4aaaa5;
   color: #fff;
   text-align: center;
